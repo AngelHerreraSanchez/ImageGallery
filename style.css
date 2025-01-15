@@ -1,0 +1,15 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: black;
+    flex-direction: row
+}
+
+.gallery img {
+    flex: 1 1 calc(25% - 20px); /* Four images per row */
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    display: inline-flex;
+}
